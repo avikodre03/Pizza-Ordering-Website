@@ -1,0 +1,189 @@
+.Cart {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1590947132387-155cc02f3212?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: 100% 100%;
+    display: flex;
+}
+
+.cartDetails {
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cartDetailsDiv {
+    height: 85%;
+    width: 75%;
+    border: 1px solid white;
+
+}
+
+.cartDetailsDiv .top {
+    height: 15%;
+    width: 100%;
+    background-color: rgba(247, 215, 155, 0.938);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+.cartDetailsDiv .top h2 {
+    margin: .5rem 0;
+}
+
+.cartDetailsDiv .top p {
+    font-size: 1rem;
+}
+
+.cartDetailsDiv .bottom {
+    height: 85%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.696);
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+.cartDetails .buttonDiv {
+    width: 75%;
+    height: 8%;
+    border-radius: 5px;
+}
+.cartDetails button {
+    width: 100%;
+    height: 100%;
+    margin: 1rem 0;
+    background-color: rgba(255, 0, 0, 0.909);
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    /* border: 2px solid yellow;  */
+    cursor: pointer;
+}
+
+.email {
+    /* border: 2px solid red; */
+    margin: 1rem 0;
+}
+
+.email input {
+    padding: .4rem 2rem;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+}
+
+.phone {
+    /* border: 2px solid red; */
+    margin: 1rem 0;
+}
+
+.phone .number input {
+    padding: .4rem .2rem;
+    margin-right: 4px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+    width: 100px;
+}
+
+.slice {
+    /* border: 2px solid red; */
+    margin: 1rem 0;
+}
+
+.slice input {
+    padding: .4rem 2rem;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+}
+
+.pizzasize {
+    /* border: 2px solid red; */
+    margin: 1rem 0;
+}
+
+.pizzasize .radio {
+    display: flex;
+    align-items: center;
+    /* border: 2px solid green; */
+}
+
+.pizzasize .radio input {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.pizzasize .radio label {
+
+    margin-right: 5px;
+}
+
+.toppings {
+    /* border: 2px solid red; */
+    margin: 1rem 0;
+}
+
+.toppings .checkbox {
+    display: flex;
+    align-items: center;
+    /* border: 2px solid green; */
+}
+
+.toppings .checkbox input {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.toppings .checkbox label {
+    font-size: 1.1rem;
+    margin-right: 5px;
+}
+
+.check {
+    /* border: 2px solid red; */
+    margin: 1rem 0;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.check input {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+.check span {
+  font-weight: 500;
+}
+
+.rightDiv {
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rightDiv button {
+    height: 40px;
+    width: 120px;
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}

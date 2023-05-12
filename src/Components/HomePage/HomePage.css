@@ -1,0 +1,118 @@
+.HomePage {
+    height: 100%;
+    width: 100%;
+   
+    display: flex;
+}
+
+.pizzas {
+    height: 100%;
+    width: 80%;
+    /* background-image: url("../../Image/donpeppe-home.png");
+    background-size: 100% 100%; */
+    overflow-y: scroll;
+}
+
+.pizzas img {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    /* height: 120%; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* overflow-y: scroll; */
+}
+
+.main .img {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 1rem;
+}
+
+.main .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.main .card {
+    /* border: 2px solid red ; */
+    display: inline-block;
+    position: relative;
+    height: 300px;
+    width: 260px;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.505);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1s ease-in-out;
+    background-color: white;
+}
+.main .card p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: .3rem 0;
+}
+.main .card p span{
+    color: red;
+    margin: 0;
+}
+.card:hover {
+    transform: scale(1.2);
+
+}
+
+.cardOverlay {
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    /* transition: all 1s ease-in-out; */
+    opacity: 0;
+    /* transition: opacity .1s; */
+
+
+}
+
+.cardOverlay:hover {
+    opacity: 1;
+    cursor: pointer;
+    /* transform: scale(1.2); */
+
+}
+
+.cardOverlay .button {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+
+.cardOverlay .button button {
+    padding: .2rem .6rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.main .card img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: .5rem;
+}
